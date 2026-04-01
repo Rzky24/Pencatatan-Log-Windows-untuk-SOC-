@@ -85,7 +85,7 @@ Windows memberikan ID Masuk (Logon ID) untuk setiap login yang berhasil (misalny
 ID login adalah pengidentifikasi sesi yang unik. Simpan untuk analisis di masa mendatang!
 
 
-Jawablah pertanyaan-pertanyaan di bawah ini.
+# Jawablah pertanyaan-pertanyaan di bawah ini.
 Buka file " Practice-Security.evtx " di Desktop VM.
 IP mana yang melakukan serangan brute force pada THM-PC?
 
