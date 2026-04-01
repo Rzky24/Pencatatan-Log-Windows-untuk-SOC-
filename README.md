@@ -89,20 +89,34 @@ Jawablah pertanyaan-pertanyaan di bawah ini.
 Buka file " Practice-Security.evtx " di Desktop VM.
 IP mana yang melakukan serangan brute force pada THM-PC?
 
-10.10.53.248
+cari filter curent dengan  event id 4625 ini adalah cara deteksi anacaman upaya login gagal
+jawaban : 10.10.53.248
 
 Jawaban yang Benar
 
 Pengguna mana yang terkena dampak serangan tersebut?
 
-Administrator
+lihat di detail Event property yang mana dia menargetkan Administrator 
+jawaban : Administrator
 
 Jawaban yang Benar
 
 Apa ID Masuk (Logon ID) dari login RDP berbahaya tersebut?
 Catatan: Login yang Anda cari memiliki Tipe Masuk (Logon Type) 10.
 
-0x183C36D
+Jika ragu, periksa kolom “Jenis Masuk” (Logon Type).
+
+cari di logon id 4624 ini adalah code logon berhasil 
+
+New Logon:
+	Security ID:		THM-PC\Administrator
+	Account Name:		Administrator
+	Account Domain:		THM-PC
+	Logon ID:		0x183C36D
+	Linked Logon ID:		0x0
+
+
+jawaban 0x183C36D
 
 # Log Keamanan: Manajemen Pengguna
 Ringkasan
